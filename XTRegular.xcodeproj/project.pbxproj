@@ -15,6 +15,7 @@
 		28371D401B9EC0AF0012CEF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28371D3E1B9EC0AF0012CEF6 /* LaunchScreen.storyboard */; };
 		28371D4B1B9EC0AF0012CEF6 /* XTRegularTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28371D4A1B9EC0AF0012CEF6 /* XTRegularTests.m */; };
 		28371D561B9EC0AF0012CEF6 /* XTRegularUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28371D551B9EC0AF0012CEF6 /* XTRegularUITests.m */; };
+		28371D661B9EC0D60012CEF6 /* NSString+XTRegular.m in Sources */ = {isa = PBXBuildFile; fileRef = 28371D651B9EC0D60012CEF6 /* NSString+XTRegular.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		28371D511B9EC0AF0012CEF6 /* XTRegularUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XTRegularUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28371D551B9EC0AF0012CEF6 /* XTRegularUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTRegularUITests.m; sourceTree = "<group>"; };
 		28371D571B9EC0AF0012CEF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28371D641B9EC0D60012CEF6 /* NSString+XTRegular.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XTRegular.h"; sourceTree = "<group>"; };
+		28371D651B9EC0D60012CEF6 /* NSString+XTRegular.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XTRegular.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		28371D2F1B9EC0AF0012CEF6 /* XTRegular */ = {
 			isa = PBXGroup;
 			children = (
+				28371D631B9EC0D60012CEF6 /* Regular */,
 				28371D331B9EC0AF0012CEF6 /* AppDelegate.h */,
 				28371D341B9EC0AF0012CEF6 /* AppDelegate.m */,
 				28371D361B9EC0AF0012CEF6 /* ViewController.h */,
@@ -139,6 +143,15 @@
 			);
 			path = XTRegularUITests;
 			sourceTree = "<group>";
+		};
+		28371D631B9EC0D60012CEF6 /* Regular */ = {
+			isa = PBXGroup;
+			children = (
+				28371D641B9EC0D60012CEF6 /* NSString+XTRegular.h */,
+				28371D651B9EC0D60012CEF6 /* NSString+XTRegular.m */,
+			);
+			path = Regular;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -270,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28371D661B9EC0D60012CEF6 /* NSString+XTRegular.m in Sources */,
 				28371D381B9EC0AF0012CEF6 /* ViewController.m in Sources */,
 				28371D351B9EC0AF0012CEF6 /* AppDelegate.m in Sources */,
 				28371D321B9EC0AF0012CEF6 /* main.m in Sources */,
@@ -496,6 +510,7 @@
 				28371D5C1B9EC0AF0012CEF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28371D5D1B9EC0AF0012CEF6 /* Build configuration list for PBXNativeTarget "XTRegularTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +519,7 @@
 				28371D5F1B9EC0AF0012CEF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28371D601B9EC0AF0012CEF6 /* Build configuration list for PBXNativeTarget "XTRegularUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +528,7 @@
 				28371D621B9EC0AF0012CEF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
