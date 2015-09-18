@@ -6,9 +6,9 @@
 //  Copyright © 2015年 LZA. All rights reserved.
 //
 
-#import "NSString+XTRegular.h"
+#import "NSString+TWRegular.h"
 
-@implementation NSString (XTRegular)
+@implementation NSString (TWRegular)
 
 - (BOOL)isValidateEmail
 {

@@ -11,7 +11,7 @@
 /**
  *  常用正则表达式
  */
-@interface NSString (XTRegular)
+@interface NSString (TWRegular)
 
 //邮箱符合性验证。
 - (BOOL)isValidateEmail;

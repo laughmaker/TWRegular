@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "28371D2C1B9EC0AF0012CEF6"
-               BuildableName = "XTRegular.app"
-               BlueprintName = "XTRegular"
-               ReferencedContainer = "container:XTRegular.xcodeproj">
+               BuildableName = "TWRegularDemo.app"
+               BlueprintName = "TWRegularDemo"
+               ReferencedContainer = "container:TWRegularDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "28371D451B9EC0AF0012CEF6"
-               BuildableName = "XTRegularTests.xctest"
-               BlueprintName = "XTRegularTests"
-               ReferencedContainer = "container:XTRegular.xcodeproj">
+               BuildableName = "TWRegularDemo.xctest"
+               BlueprintName = "TWRegularDemoTests"
+               ReferencedContainer = "container:TWRegularDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "28371D501B9EC0AF0012CEF6"
-               BuildableName = "XTRegularUITests.xctest"
-               BlueprintName = "XTRegularUITests"
-               ReferencedContainer = "container:XTRegular.xcodeproj">
+               BuildableName = "TWRegularDemo.xctest"
+               BlueprintName = "TWRegularDemoUITests"
+               ReferencedContainer = "container:TWRegularDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "28371D2C1B9EC0AF0012CEF6"
-            BuildableName = "XTRegular.app"
-            BlueprintName = "XTRegular"
-            ReferencedContainer = "container:XTRegular.xcodeproj">
+            BuildableName = "TWRegularDemo.app"
+            BlueprintName = "TWRegularDemo"
+            ReferencedContainer = "container:TWRegularDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "28371D2C1B9EC0AF0012CEF6"
-            BuildableName = "XTRegular.app"
-            BlueprintName = "XTRegular"
-            ReferencedContainer = "container:XTRegular.xcodeproj">
+            BuildableName = "TWRegularDemo.app"
+            BlueprintName = "TWRegularDemo"
+            ReferencedContainer = "container:TWRegularDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "28371D2C1B9EC0AF0012CEF6"
-            BuildableName = "XTRegular.app"
-            BlueprintName = "XTRegular"
-            ReferencedContainer = "container:XTRegular.xcodeproj">
+            BuildableName = "TWRegularDemo.app"
+            BlueprintName = "TWRegularDemo"
+            ReferencedContainer = "container:TWRegularDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

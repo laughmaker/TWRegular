@@ -13,9 +13,7 @@
 		28371D3B1B9EC0AF0012CEF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28371D391B9EC0AF0012CEF6 /* Main.storyboard */; };
 		28371D3D1B9EC0AF0012CEF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28371D3C1B9EC0AF0012CEF6 /* Assets.xcassets */; };
 		28371D401B9EC0AF0012CEF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28371D3E1B9EC0AF0012CEF6 /* LaunchScreen.storyboard */; };
-		28371D4B1B9EC0AF0012CEF6 /* XTRegularTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28371D4A1B9EC0AF0012CEF6 /* XTRegularTests.m */; };
-		28371D561B9EC0AF0012CEF6 /* XTRegularUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28371D551B9EC0AF0012CEF6 /* XTRegularUITests.m */; };
-		28371D661B9EC0D60012CEF6 /* NSString+XTRegular.m in Sources */ = {isa = PBXBuildFile; fileRef = 28371D651B9EC0D60012CEF6 /* NSString+XTRegular.m */; settings = {ASSET_TAGS = (); }; };
+		286E74131BABF51400893DC0 /* NSString+TWRegular.m in Sources */ = {isa = PBXBuildFile; fileRef = 286E74121BABF51400893DC0 /* NSString+TWRegular.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		28371D2D1B9EC0AF0012CEF6 /* XTRegular.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XTRegular.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28371D2D1B9EC0AF0012CEF6 /* TWRegularDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TWRegularDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28371D311B9EC0AF0012CEF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		28371D331B9EC0AF0012CEF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		28371D341B9EC0AF0012CEF6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -46,14 +44,10 @@
 		28371D3C1B9EC0AF0012CEF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28371D3F1B9EC0AF0012CEF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28371D411B9EC0AF0012CEF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		28371D461B9EC0AF0012CEF6 /* XTRegularTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XTRegularTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		28371D4A1B9EC0AF0012CEF6 /* XTRegularTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTRegularTests.m; sourceTree = "<group>"; };
-		28371D4C1B9EC0AF0012CEF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		28371D511B9EC0AF0012CEF6 /* XTRegularUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XTRegularUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		28371D551B9EC0AF0012CEF6 /* XTRegularUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTRegularUITests.m; sourceTree = "<group>"; };
-		28371D571B9EC0AF0012CEF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		28371D641B9EC0D60012CEF6 /* NSString+XTRegular.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XTRegular.h"; sourceTree = "<group>"; };
-		28371D651B9EC0D60012CEF6 /* NSString+XTRegular.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XTRegular.m"; sourceTree = "<group>"; };
+		28371D461B9EC0AF0012CEF6 /* TWRegularDemo.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TWRegularDemo.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28371D511B9EC0AF0012CEF6 /* TWRegularDemo.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TWRegularDemo.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		286E74111BABF51400893DC0 /* NSString+TWRegular.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TWRegular.h"; sourceTree = "<group>"; };
+		286E74121BABF51400893DC0 /* NSString+TWRegular.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TWRegular.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,9 +78,8 @@
 		28371D241B9EC0AF0012CEF6 = {
 			isa = PBXGroup;
 			children = (
-				28371D2F1B9EC0AF0012CEF6 /* XTRegular */,
-				28371D491B9EC0AF0012CEF6 /* XTRegularTests */,
-				28371D541B9EC0AF0012CEF6 /* XTRegularUITests */,
+				286E74101BABF51400893DC0 /* TWRegular */,
+				28371D2F1B9EC0AF0012CEF6 /* TWRegularDemo */,
 				28371D2E1B9EC0AF0012CEF6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,17 +87,16 @@
 		28371D2E1B9EC0AF0012CEF6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				28371D2D1B9EC0AF0012CEF6 /* XTRegular.app */,
-				28371D461B9EC0AF0012CEF6 /* XTRegularTests.xctest */,
-				28371D511B9EC0AF0012CEF6 /* XTRegularUITests.xctest */,
+				28371D2D1B9EC0AF0012CEF6 /* TWRegularDemo.app */,
+				28371D461B9EC0AF0012CEF6 /* TWRegularDemo.xctest */,
+				28371D511B9EC0AF0012CEF6 /* TWRegularDemo.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		28371D2F1B9EC0AF0012CEF6 /* XTRegular */ = {
+		28371D2F1B9EC0AF0012CEF6 /* TWRegularDemo */ = {
 			isa = PBXGroup;
 			children = (
-				28371D631B9EC0D60012CEF6 /* Regular */,
 				28371D331B9EC0AF0012CEF6 /* AppDelegate.h */,
 				28371D341B9EC0AF0012CEF6 /* AppDelegate.m */,
 				28371D361B9EC0AF0012CEF6 /* ViewController.h */,
@@ -115,7 +107,7 @@
 				28371D411B9EC0AF0012CEF6 /* Info.plist */,
 				28371D301B9EC0AF0012CEF6 /* Supporting Files */,
 			);
-			path = XTRegular;
+			path = TWRegularDemo;
 			sourceTree = "<group>";
 		};
 		28371D301B9EC0AF0012CEF6 /* Supporting Files */ = {
@@ -126,39 +118,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		28371D491B9EC0AF0012CEF6 /* XTRegularTests */ = {
+		286E74101BABF51400893DC0 /* TWRegular */ = {
 			isa = PBXGroup;
 			children = (
-				28371D4A1B9EC0AF0012CEF6 /* XTRegularTests.m */,
-				28371D4C1B9EC0AF0012CEF6 /* Info.plist */,
+				286E74111BABF51400893DC0 /* NSString+TWRegular.h */,
+				286E74121BABF51400893DC0 /* NSString+TWRegular.m */,
 			);
-			path = XTRegularTests;
+			path = TWRegular;
 			sourceTree = "<group>";
-		};
-		28371D541B9EC0AF0012CEF6 /* XTRegularUITests */ = {
-			isa = PBXGroup;
-			children = (
-				28371D551B9EC0AF0012CEF6 /* XTRegularUITests.m */,
-				28371D571B9EC0AF0012CEF6 /* Info.plist */,
-			);
-			path = XTRegularUITests;
-			sourceTree = "<group>";
-		};
-		28371D631B9EC0D60012CEF6 /* Regular */ = {
-			isa = PBXGroup;
-			children = (
-				28371D641B9EC0D60012CEF6 /* NSString+XTRegular.h */,
-				28371D651B9EC0D60012CEF6 /* NSString+XTRegular.m */,
-			);
-			path = Regular;
-			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		28371D2C1B9EC0AF0012CEF6 /* XTRegular */ = {
+		28371D2C1B9EC0AF0012CEF6 /* TWRegularDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28371D5A1B9EC0AF0012CEF6 /* Build configuration list for PBXNativeTarget "XTRegular" */;
+			buildConfigurationList = 28371D5A1B9EC0AF0012CEF6 /* Build configuration list for PBXNativeTarget "TWRegularDemo" */;
 			buildPhases = (
 				28371D291B9EC0AF0012CEF6 /* Sources */,
 				28371D2A1B9EC0AF0012CEF6 /* Frameworks */,
@@ -168,14 +142,14 @@
 			);
 			dependencies = (
 			);
-			name = XTRegular;
+			name = TWRegularDemo;
 			productName = XTRegular;
-			productReference = 28371D2D1B9EC0AF0012CEF6 /* XTRegular.app */;
+			productReference = 28371D2D1B9EC0AF0012CEF6 /* TWRegularDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		28371D451B9EC0AF0012CEF6 /* XTRegularTests */ = {
+		28371D451B9EC0AF0012CEF6 /* TWRegularDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28371D5D1B9EC0AF0012CEF6 /* Build configuration list for PBXNativeTarget "XTRegularTests" */;
+			buildConfigurationList = 28371D5D1B9EC0AF0012CEF6 /* Build configuration list for PBXNativeTarget "TWRegularDemoTests" */;
 			buildPhases = (
 				28371D421B9EC0AF0012CEF6 /* Sources */,
 				28371D431B9EC0AF0012CEF6 /* Frameworks */,
@@ -186,14 +160,14 @@
 			dependencies = (
 				28371D481B9EC0AF0012CEF6 /* PBXTargetDependency */,
 			);
-			name = XTRegularTests;
+			name = TWRegularDemoTests;
 			productName = XTRegularTests;
-			productReference = 28371D461B9EC0AF0012CEF6 /* XTRegularTests.xctest */;
+			productReference = 28371D461B9EC0AF0012CEF6 /* TWRegularDemo.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		28371D501B9EC0AF0012CEF6 /* XTRegularUITests */ = {
+		28371D501B9EC0AF0012CEF6 /* TWRegularDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28371D601B9EC0AF0012CEF6 /* Build configuration list for PBXNativeTarget "XTRegularUITests" */;
+			buildConfigurationList = 28371D601B9EC0AF0012CEF6 /* Build configuration list for PBXNativeTarget "TWRegularDemoUITests" */;
 			buildPhases = (
 				28371D4D1B9EC0AF0012CEF6 /* Sources */,
 				28371D4E1B9EC0AF0012CEF6 /* Frameworks */,
@@ -204,9 +178,9 @@
 			dependencies = (
 				28371D531B9EC0AF0012CEF6 /* PBXTargetDependency */,
 			);
-			name = XTRegularUITests;
+			name = TWRegularDemoUITests;
 			productName = XTRegularUITests;
-			productReference = 28371D511B9EC0AF0012CEF6 /* XTRegularUITests.xctest */;
+			productReference = 28371D511B9EC0AF0012CEF6 /* TWRegularDemo.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -231,7 +205,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 28371D281B9EC0AF0012CEF6 /* Build configuration list for PBXProject "XTRegular" */;
+			buildConfigurationList = 28371D281B9EC0AF0012CEF6 /* Build configuration list for PBXProject "TWRegularDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -244,9 +218,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				28371D2C1B9EC0AF0012CEF6 /* XTRegular */,
-				28371D451B9EC0AF0012CEF6 /* XTRegularTests */,
-				28371D501B9EC0AF0012CEF6 /* XTRegularUITests */,
+				28371D2C1B9EC0AF0012CEF6 /* TWRegularDemo */,
+				28371D451B9EC0AF0012CEF6 /* TWRegularDemoTests */,
+				28371D501B9EC0AF0012CEF6 /* TWRegularDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -283,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28371D661B9EC0D60012CEF6 /* NSString+XTRegular.m in Sources */,
+				286E74131BABF51400893DC0 /* NSString+TWRegular.m in Sources */,
 				28371D381B9EC0AF0012CEF6 /* ViewController.m in Sources */,
 				28371D351B9EC0AF0012CEF6 /* AppDelegate.m in Sources */,
 				28371D321B9EC0AF0012CEF6 /* main.m in Sources */,
@@ -294,7 +268,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28371D4B1B9EC0AF0012CEF6 /* XTRegularTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,7 +275,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28371D561B9EC0AF0012CEF6 /* XTRegularUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,12 +283,12 @@
 /* Begin PBXTargetDependency section */
 		28371D481B9EC0AF0012CEF6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 28371D2C1B9EC0AF0012CEF6 /* XTRegular */;
+			target = 28371D2C1B9EC0AF0012CEF6 /* TWRegularDemo */;
 			targetProxy = 28371D471B9EC0AF0012CEF6 /* PBXContainerItemProxy */;
 		};
 		28371D531B9EC0AF0012CEF6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 28371D2C1B9EC0AF0012CEF6 /* XTRegular */;
+			target = 28371D2C1B9EC0AF0012CEF6 /* TWRegularDemo */;
 			targetProxy = 28371D521B9EC0AF0012CEF6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -424,22 +396,20 @@
 		28371D5B1B9EC0AF0012CEF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = XTRegular/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TWRegularDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lza.XTRegular;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TWRegularDemo;
 			};
 			name = Debug;
 		};
 		28371D5C1B9EC0AF0012CEF6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = XTRegular/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TWRegularDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lza.XTRegular;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TWRegularDemo;
 			};
 			name = Release;
 		};
@@ -450,8 +420,8 @@
 				INFOPLIST_FILE = XTRegularTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lza.XTRegularTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XTRegular.app/XTRegular";
+				PRODUCT_NAME = TWRegularDemo;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TWRegularDemo.app/TWRegularDemo";
 			};
 			name = Debug;
 		};
@@ -462,8 +432,8 @@
 				INFOPLIST_FILE = XTRegularTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lza.XTRegularTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XTRegular.app/XTRegular";
+				PRODUCT_NAME = TWRegularDemo;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TWRegularDemo.app/TWRegularDemo";
 			};
 			name = Release;
 		};
@@ -473,7 +443,7 @@
 				INFOPLIST_FILE = XTRegularUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lza.XTRegularUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TWRegularDemo;
 				TEST_TARGET_NAME = XTRegular;
 				USES_XCTRUNNER = YES;
 			};
@@ -485,7 +455,7 @@
 				INFOPLIST_FILE = XTRegularUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lza.XTRegularUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TWRegularDemo;
 				TEST_TARGET_NAME = XTRegular;
 				USES_XCTRUNNER = YES;
 			};
@@ -494,7 +464,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		28371D281B9EC0AF0012CEF6 /* Build configuration list for PBXProject "XTRegular" */ = {
+		28371D281B9EC0AF0012CEF6 /* Build configuration list for PBXProject "TWRegularDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				28371D581B9EC0AF0012CEF6 /* Debug */,
@@ -503,7 +473,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		28371D5A1B9EC0AF0012CEF6 /* Build configuration list for PBXNativeTarget "XTRegular" */ = {
+		28371D5A1B9EC0AF0012CEF6 /* Build configuration list for PBXNativeTarget "TWRegularDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				28371D5B1B9EC0AF0012CEF6 /* Debug */,
@@ -512,7 +482,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		28371D5D1B9EC0AF0012CEF6 /* Build configuration list for PBXNativeTarget "XTRegularTests" */ = {
+		28371D5D1B9EC0AF0012CEF6 /* Build configuration list for PBXNativeTarget "TWRegularDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				28371D5E1B9EC0AF0012CEF6 /* Debug */,
@@ -521,7 +491,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		28371D601B9EC0AF0012CEF6 /* Build configuration list for PBXNativeTarget "XTRegularUITests" */ = {
+		28371D601B9EC0AF0012CEF6 /* Build configuration list for PBXNativeTarget "TWRegularDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				28371D611B9EC0AF0012CEF6 /* Debug */,
